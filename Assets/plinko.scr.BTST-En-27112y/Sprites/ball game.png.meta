@@ -1,0 +1,1369 @@
+fileFormatVersion: 2
+guid: 440fb8cb4e473e54a836299c1cc65bed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2491983059833020182
+    second: ball game_0
+  - first:
+      213: 4186612685730941277
+    second: ball game_1
+  - first:
+      213: 1870848936492577801
+    second: ball game_2
+  - first:
+      213: -2429255475912114705
+    second: ball game_3
+  - first:
+      213: 8119278834228849526
+    second: ball game_4
+  - first:
+      213: -8945548346847398830
+    second: ball game_5
+  - first:
+      213: -7877744641340686233
+    second: ball game_6
+  - first:
+      213: -3712038315149434241
+    second: ball game_7
+  - first:
+      213: 3873805859657420586
+    second: ball game_8
+  - first:
+      213: 7077291030443494598
+    second: ball game_9
+  - first:
+      213: -2050026938931285639
+    second: ball game_10
+  - first:
+      213: -3609034304958863613
+    second: ball game_11
+  - first:
+      213: 6913238097565526912
+    second: ball game_12
+  - first:
+      213: 1626805595763739552
+    second: ball game_13
+  - first:
+      213: -4329445898277252762
+    second: ball game_14
+  - first:
+      213: 9168514118952907780
+    second: ball game_15
+  - first:
+      213: 3493974684527059123
+    second: ball game_16
+  - first:
+      213: -8594275421364849346
+    second: ball game_17
+  - first:
+      213: 4551500770163102394
+    second: ball game_18
+  - first:
+      213: -4949561625979099767
+    second: ball game_19
+  - first:
+      213: -7553919631466610070
+    second: ball game_20
+  - first:
+      213: -8822143014611466671
+    second: ball game_21
+  - first:
+      213: -6144875705675767763
+    second: ball game_22
+  - first:
+      213: -4426073251391340513
+    second: ball game_23
+  - first:
+      213: -9009699908583521728
+    second: ball game_24
+  - first:
+      213: 8447737434421526750
+    second: ball game_25
+  - first:
+      213: -6298428318452871660
+    second: ball game_26
+  - first:
+      213: 2829093838290020196
+    second: ball game_27
+  - first:
+      213: 5870740453571052086
+    second: ball game_28
+  - first:
+      213: 2582690271628420282
+    second: ball game_29
+  - first:
+      213: 7303590508769668607
+    second: ball game_30
+  - first:
+      213: 3294050953497569010
+    second: ball game_31
+  - first:
+      213: 6584047550045804618
+    second: ball game_32
+  - first:
+      213: -2224779299673947748
+    second: ball game_33
+  - first:
+      213: -7565410411787024165
+    second: ball game_34
+  - first:
+      213: -3935362802683112840
+    second: ball game_35
+  - first:
+      213: 5060208314048081190
+    second: ball game_36
+  - first:
+      213: 2532027510734007656
+    second: ball game_37
+  - first:
+      213: -4985392269237307239
+    second: ball game_38
+  - first:
+      213: 3028887279273811153
+    second: ball game_39
+  - first:
+      213: 7553897403897785200
+    second: ball game_40
+  - first:
+      213: -6320403098220401512
+    second: ball game_41
+  - first:
+      213: 5121634796308039584
+    second: ball game_42
+  - first:
+      213: 2349775145311141790
+    second: ball game_43
+  - first:
+      213: 8399452621586290104
+    second: ball game_44
+  - first:
+      213: 3755985467479426172
+    second: ball game_45
+  - first:
+      213: 2206970080381030463
+    second: ball game_46
+  - first:
+      213: 1755994283702336553
+    second: ball game_47
+  - first:
+      213: -5345359790783061801
+    second: ball game_48
+  - first:
+      213: -1614139244367652742
+    second: ball game_49
+  - first:
+      213: -971206182149764289
+    second: ball game_50
+  - first:
+      213: -7961994568059879501
+    second: ball game_51
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 32
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ball game_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 711
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ac543c92ba6dd0800000000000000
+      internalID: -2491983059833020182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 711
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5903295e06d91a30800000000000000
+      internalID: 4186612685730941277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 711
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904be00123796f910800000000000000
+      internalID: 1870848936492577801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 609
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedf591f30d894ed0800000000000000
+      internalID: -2429255475912114705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 609
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bee8af4197da070800000000000000
+      internalID: 8119278834228849526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 609
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254f3119c270bd380800000000000000
+      internalID: -8945548346847398830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 609
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760c6ad9cf0aca290800000000000000
+      internalID: -7877744641340686233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 507
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72e0e0d1d03c7cc0800000000000000
+      internalID: -3712038315149434241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 507
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f05b1b7e582c530800000000000000
+      internalID: 3873805859657420586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 507
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc84a1f1b6973260800000000000000
+      internalID: 7077291030443494598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_10
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 507
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f40d4c57dc83e0800000000000000
+      internalID: -2050026938931285639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 507
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076abecb622aedc0800000000000000
+      internalID: -3609034304958863613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b271dfb61c0ff50800000000000000
+      internalID: 6913238097565526912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_13
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab8d16f113939610800000000000000
+      internalID: 1626805595763739552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_14
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66199e6d4e7bae3c0800000000000000
+      internalID: -4329445898277252762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404775aa30b1d3f70800000000000000
+      internalID: 9168514118952907780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b06175b6771d7030800000000000000
+      internalID: 3493974684527059123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_17
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 405
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e357da7e9000bb880800000000000000
+      internalID: -8594275421364849346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab21d78e5dd2a2f30800000000000000
+      internalID: 4551500770163102394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9856c91dcef9f4bb0800000000000000
+      internalID: -4949561625979099767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6245981e161b2790800000000000000
+      internalID: -7553919631466610070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c3608ba3719580800000000000000
+      internalID: -8822143014611466671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_22
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20a4464a1409baa0800000000000000
+      internalID: -6144875705675767763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1006f404dd6392c0800000000000000
+      internalID: -4426073251391340513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_24
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 303
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04282082bad17f280800000000000000
+      internalID: -9009699908583521728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0077640746c3570800000000000000
+      internalID: 8447737434421526750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_26
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e0b5b90dc7798a0800000000000000
+      internalID: -6298428318452871660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_27
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e5835bd5f24720800000000000000
+      internalID: 2829093838290020196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6324e97865f097150800000000000000
+      internalID: 5870740453571052086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_29
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e44d4e1f87d320800000000000000
+      internalID: 2582690271628420282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd61242fd09b5560800000000000000
+      internalID: 7303590508769668607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_31
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6624bb3e1d6bd20800000000000000
+      internalID: 3294050953497569010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_32
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 210
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d2ccec5c3f5b50800000000000000
+      internalID: 6584047550045804618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_33
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91ca4ba30fff11e0800000000000000
+      internalID: -2224779299673947748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_34
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd884615053420790800000000000000
+      internalID: -7565410411787024165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_35
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87299c3a168c269c0800000000000000
+      internalID: -3935362802683112840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_36
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d6058c6a8793640800000000000000
+      internalID: 5060208314048081190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_37
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d21d21b91932320800000000000000
+      internalID: 2532027510734007656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_38
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b126152450dab0800000000000000
+      internalID: -4985392269237307239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_39
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc90d9cee4c80a20800000000000000
+      internalID: 3028887279273811153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_40
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba215aaa5d4d860800000000000000
+      internalID: 7553897403897785200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_41
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 108
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c6b4d7eda6948a0800000000000000
+      internalID: -6320403098220401512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7883f26b3b31740800000000000000
+      internalID: 5121634796308039584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fff468b041c9020800000000000000
+      internalID: 2349775145311141790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5df5938a9d09470800000000000000
+      internalID: 8399452621586290104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_45
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7404a2f1e0ff1430800000000000000
+      internalID: 3755985467479426172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_46
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d607589bb0ae10800000000000000
+      internalID: 2206970080381030463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_47
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb1b35f7b8e5810800000000000000
+      internalID: 1755994283702336553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_48
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d028b9579771d5b0800000000000000
+      internalID: -5345359790783061801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_49
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78d279c8ec6999e0800000000000000
+      internalID: -1614139244367652742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_50
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bcc4d7f159582f0800000000000000
+      internalID: -971206182149764289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball game_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7333ff10518190800000000000000
+      internalID: -7961994568059879501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
