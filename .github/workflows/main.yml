@@ -7,14 +7,14 @@ env:
   UNITY_EMAIL: "unitydatastorage@gmail.com"
   UNITY_PASSWORD: "qwerty12345Q"
   
-  APP_NAME: "com.penaltym.match"
+  APP_NAME: "PE mobile 2022 online(2)"
   
-  AndroidKeystorePass: "gjk39slzawdawd"
-  AndroidKeyaliasPass: "gjk39slzawdawd"
-  AndroidKeyaliasName: "prorab"
+  AndroidKeystorePass: "qwerty12345Q"
+  AndroidKeyaliasPass: "qwerty12345Q"
+  AndroidKeyaliasName: "qwerty12345q"
   
-  ChatID_APK: "-1001730907007"
-  ChatID_AAB: "-1001730907007"
+  ChatID_APK: "1034562126"
+  ChatID_AAB: "1034562126"
   BotToken: "5541471253:AAFGq-cwlYERC9nSYc68_94bWOH0Fx1KkVU"
   
   
