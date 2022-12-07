@@ -372,6 +372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 1118199543}
+  clickClip: {fileID: 8300000, guid: 4c7b261b2673f3342bed89bc2c0a4a2d, type: 3}
+  colidedClip: {fileID: 8300000, guid: e212493b02c0c344ba5bac1ea52cc750, type: 3}
 --- !u!1 &810395057
 GameObject:
   m_ObjectHideFlags: 0
