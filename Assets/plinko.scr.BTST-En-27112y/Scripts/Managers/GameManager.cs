@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,6 +23,8 @@ public class GameManager : MonoBehaviour
     public static UnityAction<int> OnBetChanged { get; set; }
     public static UnityAction<int> OnBalanceChanged { get; set; }
 
+    public static Action ButtonPressed { get; set; }
+
     public static float[] coefficients = new float[] { 2.5f, 2.0f, 1.5f, 1.0f, 0.5f, 1.0f, 1.5f, 2.0f, 2.5f };
 
     private void Awake()
@@ -40,6 +44,8 @@ public class GameManager : MonoBehaviour
 
                 Instantiate(BallPrefab, new Vector2(Random.Range(-0.405f, 0.405f), 4), Quaternion.identity, EnvironmentRef);
                 nextClick = Time.time + clickRate;
+
+                ButtonPressed?.Invoke();
             }
         };
 
@@ -47,12 +53,16 @@ public class GameManager : MonoBehaviour
         {
             BetCount += value;
             OnBetChanged?.Invoke(BetCount);
+
+            ButtonPressed?.Invoke();
         };
 
         ResetPriceAction += () =>
         {
             BetCount = 0;
             AddBetAction?.Invoke(0);
+
+            ButtonPressed?.Invoke();
         };
 
         Ball.OnCollided += (_gameObject, ball) =>

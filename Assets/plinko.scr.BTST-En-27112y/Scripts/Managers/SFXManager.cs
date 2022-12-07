@@ -19,22 +19,17 @@ public class SFXManager : MonoBehaviour
             }
             else if(collider.CompareTag("point"))
             {
-                if (sfxSource.isPlaying)
-                {
-                    sfxSource.Stop();
-                }
-
                 sfxSource.PlayOneShot(hitClip);
             }
             else
             {
-                if (sfxSource.isPlaying)
-                {
-                    sfxSource.Stop();
-                }
-
                 sfxSource.PlayOneShot(colidedClip);
             }
+        };
+
+        GameManager.ButtonPressed += () =>
+        {
+            sfxSource.PlayOneShot(clickClip);
         };
     }
 }

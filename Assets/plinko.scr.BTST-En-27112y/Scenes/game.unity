@@ -372,8 +372,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxSource: {fileID: 1118199543}
-  clickClip: {fileID: 8300000, guid: 4c7b261b2673f3342bed89bc2c0a4a2d, type: 3}
-  colidedClip: {fileID: 8300000, guid: e212493b02c0c344ba5bac1ea52cc750, type: 3}
+  clickClip: {fileID: 8300000, guid: e212493b02c0c344ba5bac1ea52cc750, type: 3}
+  hitClip: {fileID: 8300000, guid: 272e752da248e1145851652c96370f9b, type: 3}
+  colidedClip: {fileID: 8300000, guid: 4c7b261b2673f3342bed89bc2c0a4a2d, type: 3}
 --- !u!1 &810395057
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,6 +698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261777097}
   - component: {fileID: 1261777098}
+  - component: {fileID: 1261777099}
   m_Layer: 0
   m_Name: loop
   m_TagString: Untagged
@@ -731,7 +733,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: fbc1aba667d3edf468d6480d66a7798b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.187
-  m_Pitch: 1
+  m_Pitch: 0.92
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -814,6 +816,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &1261777099
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261777096}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: 0
+  m_DecayTime: 8.39
+  m_DecayHFRatio: 1.39
+  m_ReflectionsLevel: -115
+  m_ReverbLevel: 985
+  m_ReverbDelay: 0.03
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 24
 --- !u!1 &1399025989
 GameObject:
   m_ObjectHideFlags: 0

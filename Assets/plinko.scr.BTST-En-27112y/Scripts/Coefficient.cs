@@ -24,6 +24,7 @@ public class Coefficient : MonoBehaviour
 
         GameManager.ChangeRiskAction += (value) =>
         {
+            GameManager.ButtonPressed?.Invoke();
             Value = InitValue < 0 ? InitValue / value : InitValue * value;
         };
     }
