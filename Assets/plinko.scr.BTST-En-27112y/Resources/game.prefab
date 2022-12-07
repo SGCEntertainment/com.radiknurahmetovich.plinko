@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 3784580711608490574}
   - component: {fileID: 3784580711608490573}
   m_Layer: 0
-  m_Name: score
+  m_Name: balance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 3784580711646266884}
   - component: {fileID: 3784580711646266883}
   m_Layer: 0
-  m_Name: Text
+  m_Name: balanceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
     private float nextClick;
     private const float clickRate = 0.5f;
 
-    public static int BetCount { get; set; }
+    public int Balance { get; set; }
+    private int BetCount { get; set; }
 
     private GameObject BallPrefab { get; set; }
     private GameObject HitPrefab { get; set; }
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour
     public static UnityAction<int> AddBetAction { get; set; }
     public static UnityAction<float> ChangeRiskAction { get; set; }
     public static UnityAction<int> OnBetChanged { get; set; }
+    public static UnityAction<int> OnBlanceChnged { get; set; }
 
     private void Awake()
     {

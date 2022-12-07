@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     private Button _2xBtn;
 
     private Text betCountText;
+    private Text balanceText;
 
     private Button lowRiskBtn;
     private Button mediumRiskBtn;
@@ -29,6 +30,7 @@ public class UIManager : MonoBehaviour
         hightRiskBtn = GameObject.Find("hightRiskBtn").GetComponent<Button>();
 
         betCountText = GameObject.Find("betCountText").GetComponent<Text>();
+        balanceText = GameObject.Find("balanceText").GetComponent<Text>();
     }
 
     private void Start()
@@ -47,6 +49,11 @@ public class UIManager : MonoBehaviour
         GameManager.OnBetChanged += (value) =>
         {
             betCountText.text = $"{value}";
+        };
+
+        GameManager.OnBlanceChnged += (value) =>
+        {
+            balanceText.text = $"{value}";
         };
     }
 }
