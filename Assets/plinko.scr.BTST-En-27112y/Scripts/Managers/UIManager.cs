@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
         Instantiate(prefab, GameObject.Find("main").transform);
 
         sendBallBtn = GameObject.Find("sendBallBtn").GetComponent<Button>();
+        resetPriceBtn = GameObject.Find("resetPriceBtn").GetComponent<Button>();
 
         _1xBtn = GameObject.Find("1x").GetComponent<Button>();
         _2xBtn = GameObject.Find("2x").GetComponent<Button>();
