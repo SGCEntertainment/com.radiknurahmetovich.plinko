@@ -6,15 +6,25 @@ public class SFXManager : MonoBehaviour
 
     [Space(10)]
     [SerializeField] AudioClip clickClip;
+    [SerializeField] AudioClip hitClip;
     [SerializeField] AudioClip colidedClip;
 
     private void Awake()
     {
         Ball.OnCollided += (collider, _) =>
         {
-            if (collider.CompareTag("Player") || collider.CompareTag("point"))
+            if (collider.CompareTag("Player"))
             {
                 return;
+            }
+            else if(collider.CompareTag("point"))
+            {
+                if (sfxSource.isPlaying)
+                {
+                    sfxSource.Stop();
+                }
+
+                sfxSource.PlayOneShot(hitClip);
             }
             else
             {
