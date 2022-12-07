@@ -14,10 +14,11 @@ public class GameManager : MonoBehaviour
     private Transform EnvironmentRef { get; set; }
 
     public static UnityAction SendBallAction { get; set; }
+    public static UnityAction ResetPriceAction { get; set; }
     public static UnityAction<int> AddBetAction { get; set; }
     public static UnityAction<float> ChangeRiskAction { get; set; }
     public static UnityAction<int> OnBetChanged { get; set; }
-    public static UnityAction<int> OnBlanceChnged { get; set; }
+    public static UnityAction<int> OnBlanceChanged { get; set; }
 
     private void Awake()
     {
@@ -27,20 +28,26 @@ public class GameManager : MonoBehaviour
         EnvironmentRef = GameObject.Find("Environment").transform;
         Instantiate(Resources.Load<GameObject>("game root"), EnvironmentRef);
 
-        SendBallAction = new UnityAction(() =>
+        SendBallAction += () =>
         {
             if (Time.time > nextClick)
             {
                 Instantiate(BallPrefab, new Vector2(Random.Range(-0.405f, 0.405f), 4), Quaternion.identity, EnvironmentRef);
                 nextClick = Time.time + clickRate;
             }
-        });
+        };
 
-        AddBetAction = new UnityAction<int>((value) =>
+        AddBetAction += (value) =>
         {
             BetCount += value;
             OnBetChanged?.Invoke(BetCount);
-        });
+        };
+
+        ResetPriceAction += (value) =>
+        {
+            BetCount = value;
+            AddBetAction?.Invoke(0);
+        };
 
         Ball.OnCollided += (_gameObject, ball) =>
         {

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    private Button resetPriceBtn;
     private Button sendBallBtn;
 
     private Button _1xBtn;
@@ -36,6 +37,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         sendBallBtn.onClick.AddListener(GameManager.SendBallAction);
+        resetPriceBtn.onClick.AddListener(GameManager.ResetPriceAction);
 
         _1xBtn.onClick.AddListener(() => GameManager.AddBetAction(50));
         _2xBtn.onClick.AddListener(() => GameManager.AddBetAction(100));
@@ -51,7 +53,7 @@ public class UIManager : MonoBehaviour
             betCountText.text = $"{value}";
         };
 
-        GameManager.OnBlanceChnged += (value) =>
+        GameManager.OnBlanceChanged += (value) =>
         {
             balanceText.text = $"{value}";
         };
