@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 3784580712287376324}
   - component: {fileID: 3784580712287376323}
   m_Layer: 0
-  m_Name: Text
+  m_Name: betCountText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
