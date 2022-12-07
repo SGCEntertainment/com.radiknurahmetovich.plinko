@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour
             betCountText.text = $"{value}";
         };
 
-        GameManager.OnBlanceChanged += (value) =>
+        GameManager.OnBalanceChanged += (value) =>
         {
             balanceText.text = $"{value}";
         };

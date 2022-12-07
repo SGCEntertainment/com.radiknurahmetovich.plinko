@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     private float nextClick;
     private const float clickRate = 0.5f;
 
-    public int Balance { get; set; }
+    public int Balance { get; set; } = 1000;
     private int BetCount { get; set; }
 
     private GameObject BallPrefab { get; set; }
@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public static UnityAction<int> AddBetAction { get; set; }
     public static UnityAction<float> ChangeRiskAction { get; set; }
     public static UnityAction<int> OnBetChanged { get; set; }
-    public static UnityAction<int> OnBlanceChanged { get; set; }
+    public static UnityAction<int> OnBalanceChanged { get; set; }
 
     private void Awake()
     {
@@ -30,8 +30,11 @@ public class GameManager : MonoBehaviour
 
         SendBallAction += () =>
         {
-            if (Time.time > nextClick)
+            if (Time.time > nextClick && Balance >= BetCount)
             {
+                Balance -= BetCount;
+                OnBalanceChanged?.Invoke(Balance);
+
                 Instantiate(BallPrefab, new Vector2(Random.Range(-0.405f, 0.405f), 4), Quaternion.identity, EnvironmentRef);
                 nextClick = Time.time + clickRate;
             }
