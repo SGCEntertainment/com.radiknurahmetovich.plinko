@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     public static UnityAction<int> OnBetChanged { get; set; }
     public static UnityAction<int> OnBalanceChanged { get; set; }
 
+    public static float[] coefficients = new float[] { 2.5f, 2.0f, 1.5f, 1.0f, 0.5f, 1.0f, 1.5f, 2.0f, 2.5f };
+
     private void Awake()
     {
         BallPrefab = Resources.Load<GameObject>("ball");
