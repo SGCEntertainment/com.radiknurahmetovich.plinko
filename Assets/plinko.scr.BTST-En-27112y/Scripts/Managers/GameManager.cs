@@ -29,15 +29,21 @@ public class GameManager : MonoBehaviour
             }
         });
 
-        Ball.OnCollided += (_gameObject) =>
+        Ball.OnCollided += (_gameObject, ball) =>
         {
+            if(_gameObject.CompareTag("Player"))
+            {
+                return;
+            }
+
             if (_gameObject.CompareTag("point"))
             {
-                Instantiate(HitPrefab, _gameObject.transform.position, Quaternion.identity, EnvironmentRef);
+                GameObject hit = Instantiate(HitPrefab, _gameObject.transform.position, Quaternion.identity, EnvironmentRef);
+                Destroy(hit, 0.25f);
             }
             else
             {
-                Destroy(_gameObject);
+                Destroy(ball);
             }
         };
     }
