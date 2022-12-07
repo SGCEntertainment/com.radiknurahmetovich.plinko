@@ -763,7 +763,7 @@ PlayerSettings:
   cloudProjectId: 265c0055-f101-4d50-a9e3-b00e791bec1a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Plinko
+  projectName: com.radiknurahmetovich.plinko
   organizationId: flipmoris
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
