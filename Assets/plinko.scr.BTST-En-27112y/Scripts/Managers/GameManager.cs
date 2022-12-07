@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -69,5 +70,11 @@ public class GameManager : MonoBehaviour
                 Destroy(ball);
             }
         };
+    }
+
+    private IEnumerator Start()
+    {
+        yield return null;
+        OnBalanceChanged?.Invoke(Balance);
     }
 }
