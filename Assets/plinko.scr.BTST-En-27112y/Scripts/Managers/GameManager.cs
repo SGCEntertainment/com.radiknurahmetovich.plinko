@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     private const float clickRate = 0.5f;
 
     private GameObject BallPrefab { get; set; }
+    private GameObject HitPrefab { get; set; }
     private Transform EnvironmentRef { get; set; }
 
     public static UnityAction SendBallAction { get; set; }
@@ -14,8 +15,9 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         BallPrefab = Resources.Load<GameObject>("ball");
-        EnvironmentRef = GameObject.Find("Environment").transform;
+        HitPrefab = Resources.Load<GameObject>("hit");
 
+        EnvironmentRef = GameObject.Find("Environment").transform;
         Instantiate(Resources.Load<GameObject>("game root"), EnvironmentRef);
 
         SendBallAction = new UnityAction(() =>
@@ -26,5 +28,17 @@ public class GameManager : MonoBehaviour
                 nextClick = Time.time + clickRate;
             }
         });
+
+        Ball.OnCollided += (_gameObject) =>
+        {
+            if (_gameObject.CompareTag("point"))
+            {
+                Instantiate(HitPrefab, _gameObject.transform.position, Quaternion.identity, EnvironmentRef);
+            }
+            else
+            {
+                Destroy(_gameObject);
+            }
+        };
     }
 }

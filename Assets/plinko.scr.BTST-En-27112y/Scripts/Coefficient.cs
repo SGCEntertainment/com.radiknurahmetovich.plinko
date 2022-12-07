@@ -13,9 +13,4 @@ public class Coefficient : MonoBehaviour
     {
         SpringJoint.connectedAnchor = transform.position;
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(collision.gameObject);
-    }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1933657208705199002}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 1933657208768762826}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -744,7 +744,7 @@ GameObject:
   - component: {fileID: 1933657208974107781}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 1933657209000018930}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 1933657209005646111}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 1933657209047873476}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1102,7 +1102,7 @@ GameObject:
   - component: {fileID: 1933657209082120989}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1149,7 +1149,7 @@ GameObject:
   - component: {fileID: 1933657209101030720}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 1933657209109129756}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 1933657209117169609}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1290,7 +1290,7 @@ GameObject:
   - component: {fileID: 1933657209119317574}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 1933657209135047773}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 1933657209140373221}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1431,7 +1431,7 @@ GameObject:
   - component: {fileID: 1933657209148642730}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 1933657209217449015}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1681,7 +1681,7 @@ GameObject:
   - component: {fileID: 1933657209220178877}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1728,7 +1728,7 @@ GameObject:
   - component: {fileID: 1933657209239701031}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1775,7 +1775,7 @@ GameObject:
   - component: {fileID: 1933657209248040266}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1822,7 +1822,7 @@ GameObject:
   - component: {fileID: 1933657209262730538}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1869,7 +1869,7 @@ GameObject:
   - component: {fileID: 1933657209311714757}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2228,7 +2228,7 @@ GameObject:
   - component: {fileID: 1933657209476017762}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2275,7 +2275,7 @@ GameObject:
   - component: {fileID: 1933657209484124339}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 1933657209566120157}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2369,7 +2369,7 @@ GameObject:
   - component: {fileID: 1933657209566584834}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2416,7 +2416,7 @@ GameObject:
   - component: {fileID: 1933657209582916571}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2463,7 +2463,7 @@ GameObject:
   - component: {fileID: 1933657209595178270}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2680,7 +2680,7 @@ GameObject:
   - component: {fileID: 1933657209626584535}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2727,7 +2727,7 @@ GameObject:
   - component: {fileID: 1933657209649209630}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,7 +2908,7 @@ GameObject:
   - component: {fileID: 1933657209736205196}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2955,7 +2955,7 @@ GameObject:
   - component: {fileID: 1933657209782457865}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3172,7 +3172,7 @@ GameObject:
   - component: {fileID: 1933657209856455701}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3219,7 +3219,7 @@ GameObject:
   - component: {fileID: 1933657209860063283}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3436,7 +3436,7 @@ GameObject:
   - component: {fileID: 1933657209906167434}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3483,7 +3483,7 @@ GameObject:
   - component: {fileID: 1933657209967457906}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3530,7 +3530,7 @@ GameObject:
   - component: {fileID: 1933657209978812334}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3577,7 +3577,7 @@ GameObject:
   - component: {fileID: 1933657209991768874}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3780,7 +3780,7 @@ GameObject:
   - component: {fileID: 1933657210000613723}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3827,7 +3827,7 @@ GameObject:
   - component: {fileID: 1933657210029479814}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3874,7 +3874,7 @@ GameObject:
   - component: {fileID: 1933657210041919004}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4091,7 +4091,7 @@ GameObject:
   - component: {fileID: 1933657210073497207}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4138,7 +4138,7 @@ GameObject:
   - component: {fileID: 1933657210106162323}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4185,7 +4185,7 @@ GameObject:
   - component: {fileID: 1933657210107687661}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4232,7 +4232,7 @@ GameObject:
   - component: {fileID: 1933657210161737379}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4279,7 +4279,7 @@ GameObject:
   - component: {fileID: 1933657210207170104}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4326,7 +4326,7 @@ GameObject:
   - component: {fileID: 1933657210216578182}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4373,7 +4373,7 @@ GameObject:
   - component: {fileID: 1933657210264371361}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4629,7 +4629,7 @@ GameObject:
   - component: {fileID: 1933657210480134932}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4676,7 +4676,7 @@ GameObject:
   - component: {fileID: 1933657210519454707}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4879,7 +4879,7 @@ GameObject:
   - component: {fileID: 1933657210572732082}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4926,7 +4926,7 @@ GameObject:
   - component: {fileID: 1933657210652052753}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4973,7 +4973,7 @@ GameObject:
   - component: {fileID: 1933657210716335185}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5346,7 +5346,7 @@ GameObject:
   - component: {fileID: 1933657210784980659}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: point
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
