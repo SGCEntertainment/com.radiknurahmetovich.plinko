@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6939038715823909027}
   - component: {fileID: 6540826418259329899}
   m_Layer: 0
-  m_Name: medium
+  m_Name: mediumRiskBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 1139004940665584778}
   - component: {fileID: 2188636652366632514}
   m_Layer: 0
-  m_Name: low
+  m_Name: lowRiskBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1345,7 +1345,7 @@ GameObject:
   - component: {fileID: 8087543803323684241}
   - component: {fileID: 1584016416026781747}
   m_Layer: 0
-  m_Name: height
+  m_Name: hightRiskBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

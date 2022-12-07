@@ -13,8 +13,8 @@ public class GameManager : MonoBehaviour
     private Transform EnvironmentRef { get; set; }
 
     public static UnityAction SendBallAction { get; set; }
-
-    public static UnityAction<int> AddBet { get; set; }
+    public static UnityAction<int> AddBetAction { get; set; }
+    public static UnityAction<float> ChangeRiskAction { get; set; }
 
     private void Awake()
     {
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
             }
         });
 
-        AddBet = new UnityAction<int>((value) =>
+        AddBetAction = new UnityAction<int>((value) =>
         {
             BetCount += value;
         });
