@@ -43,9 +43,9 @@ public class UIManager : MonoBehaviour
         _1xBtn.onClick.AddListener(() => GameManager.AddBetAction(50));
         _2xBtn.onClick.AddListener(() => GameManager.AddBetAction(100));
 
-        lowRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(2));
-        mediumRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(4));
-        hightRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(6));
+        lowRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(1));
+        mediumRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(0.5f));
+        hightRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(1.5f));
 
         sendBallBtn.onClick.AddListener(GameManager.SendBallAction);
 

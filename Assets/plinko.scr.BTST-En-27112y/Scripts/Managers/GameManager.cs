@@ -69,6 +69,11 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+                Coefficient coefficient = _gameObject.GetComponent<Coefficient>();
+
+                Balance += Mathf.FloorToInt(BetCount * coefficient.Value);
+                OnBalanceChanged?.Invoke(Balance);
+
                 Destroy(ball);
             }
         };

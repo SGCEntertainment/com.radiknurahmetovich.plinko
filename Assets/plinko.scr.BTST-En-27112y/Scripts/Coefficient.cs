@@ -5,7 +5,7 @@ public class Coefficient : MonoBehaviour
 {
     private float InitValue { get; set; }
 
-    private float Value
+    public float Value
     {
         get => float.Parse(TextComponent.text);
         set => TextComponent.text = $"{value}";
