@@ -151,7 +151,7 @@ Transform:
   m_GameObject: {fileID: 6382932}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4.16, z: 0}
-  m_LocalScale: {x: 0.6234928, y: 0.6234928, z: 0.6234928}
+  m_LocalScale: {x: 0.682325, y: 0.682325, z: 0.682325}
   m_Children: []
   m_Father: {fileID: 1401289246}
   m_RootOrder: 2
@@ -164,11 +164,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6382932}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -273,8 +273,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9193264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.681, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: -1.4788, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 2055334704}
   m_Father: {fileID: 1401289246}
@@ -327,7 +327,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &9193269
 Rigidbody2D:
   serializedVersion: 4
@@ -1242,8 +1242,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268661249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.02406, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: 0.021653, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 1686069322}
   m_Father: {fileID: 1401289246}
@@ -1296,7 +1296,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &268661254
 Rigidbody2D:
   serializedVersion: 4
@@ -1476,8 +1476,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285898744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.54116, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: -0.47574, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 174413467}
   m_Father: {fileID: 1401289246}
@@ -1530,7 +1530,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &285898749
 Rigidbody2D:
   serializedVersion: 4
@@ -1667,8 +1667,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328351221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2684, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: 1.9967, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 1625176920}
   m_Father: {fileID: 1401289246}
@@ -1721,7 +1721,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &328351226
 Rigidbody2D:
   serializedVersion: 4
@@ -2279,8 +2279,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601248688}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00071999, y: 1.5797999, z: 0}
-  m_LocalScale: {x: 0.55700207, y: 0.55700207, z: 0.55700207}
+  m_LocalPosition: {x: -0.0001536, y: 1.5297, z: 0}
+  m_LocalScale: {x: 0.4901618, y: 0.4901618, z: 0.4901618}
   m_Children:
   - {fileID: 1847665289}
   - {fileID: 1940184875}
@@ -3181,8 +3181,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815091279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1486, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: 1.0112, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 1302760976}
   m_Father: {fileID: 1401289246}
@@ -3235,7 +3235,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &815091284
 Rigidbody2D:
   serializedVersion: 4
@@ -3337,8 +3337,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851515149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.2604, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: -1.9887, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 1519503354}
   m_Father: {fileID: 1401289246}
@@ -3363,7 +3363,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &851515152
 Rigidbody2D:
   serializedVersion: 4
@@ -4968,8 +4968,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356761879}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1064, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: -0.97315, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 484176323}
   m_Father: {fileID: 1401289246}
@@ -5022,7 +5022,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &1356761884
 Rigidbody2D:
   serializedVersion: 4
@@ -6158,8 +6158,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685513623}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.58928, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: 0.51905, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 1489182477}
   m_Father: {fileID: 1401289246}
@@ -6212,7 +6212,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &1685513628
 Rigidbody2D:
   serializedVersion: 4
@@ -6734,8 +6734,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888082169}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7115, y: -0.91, z: 0}
-  m_LocalScale: {x: 0.50404334, y: 0.50404334, z: 0.50404334}
+  m_LocalPosition: {x: 1.5066, y: -0.66132, z: 0}
+  m_LocalScale: {x: 0.44355813, y: 0.44355813, z: 0.44355813}
   m_Children:
   - {fileID: 687797994}
   m_Father: {fileID: 1401289246}
@@ -6788,7 +6788,7 @@ SpringJoint2D:
   m_AutoConfigureDistance: 0
   m_Distance: 0.005
   m_DampingRatio: 0
-  m_Frequency: 5
+  m_Frequency: 3
 --- !u!50 &1888082174
 Rigidbody2D:
   serializedVersion: 4
