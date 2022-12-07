@@ -43,5 +43,10 @@ public class UIManager : MonoBehaviour
         hightRiskBtn.onClick.AddListener(() => GameManager.ChangeRiskAction(6));
 
         sendBallBtn.onClick.AddListener(GameManager.SendBallAction);
+
+        GameManager.OnBetChanged += (value) =>
+        {
+            betCountText.text = $"{value}";
+        };
     }
 }

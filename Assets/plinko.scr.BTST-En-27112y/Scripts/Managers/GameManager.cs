@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public static UnityAction SendBallAction { get; set; }
     public static UnityAction<int> AddBetAction { get; set; }
     public static UnityAction<float> ChangeRiskAction { get; set; }
+    public static UnityAction<int> OnBetChanged { get; set; }
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
         AddBetAction = new UnityAction<int>((value) =>
         {
             BetCount += value;
+            OnBetChanged?.Invoke(BetCount);
         });
 
         Ball.OnCollided += (_gameObject, ball) =>
