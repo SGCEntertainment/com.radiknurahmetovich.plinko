@@ -7,7 +7,7 @@ env:
   UNITY_EMAIL: "unitydatastorage@gmail.com"
   UNITY_PASSWORD: "qwerty12345Q"
   
-  APP_NAME: "PE mobile 2022 online(2)"
+  APP_NAME: "Plinko(2)"
   
   AndroidKeystorePass: "qwerty12345Q"
   AndroidKeyaliasPass: "qwerty12345Q"
