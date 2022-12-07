@@ -3,9 +3,11 @@ using TMPro;
 
 public class Coefficient : MonoBehaviour
 {
+    private float InitValue { get; set; }
+
     private float Value
     {
-        get => int.Parse(TextComponent.text);
+        get => float.Parse(TextComponent.text);
         set => TextComponent.text = $"{value}";
     }
 
@@ -17,11 +19,12 @@ public class Coefficient : MonoBehaviour
         SpringJoint = GetComponent<SpringJoint2D>();
         TextComponent = transform.GetChild(0).GetComponent<TextMeshPro>();
 
-        Value = GameManager.coefficients[transform.GetSiblingIndex()];
+        InitValue = GameManager.coefficients[transform.GetSiblingIndex()];
+        Value = InitValue;
 
         GameManager.ChangeRiskAction += (value) =>
         {
-            Value = Value < 0 ? Value / Value : Value * value;
+            Value = InitValue < 0 ? InitValue / value : InitValue * value;
         };
     }
 
