@@ -43,9 +43,9 @@ public class GameManager : MonoBehaviour
             OnBetChanged?.Invoke(BetCount);
         };
 
-        ResetPriceAction += (value) =>
+        ResetPriceAction += () =>
         {
-            BetCount = value;
+            BetCount = 0;
             AddBetAction?.Invoke(0);
         };
 
