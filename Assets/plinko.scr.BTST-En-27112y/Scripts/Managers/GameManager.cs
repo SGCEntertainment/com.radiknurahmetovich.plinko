@@ -6,11 +6,15 @@ public class GameManager : MonoBehaviour
     private float nextClick;
     private const float clickRate = 0.5f;
 
+    public static int BetCount { get; set; }
+
     private GameObject BallPrefab { get; set; }
     private GameObject HitPrefab { get; set; }
     private Transform EnvironmentRef { get; set; }
 
     public static UnityAction SendBallAction { get; set; }
+
+    public static UnityAction<int> AddBet { get; set; }
 
     private void Awake()
     {
@@ -27,6 +31,11 @@ public class GameManager : MonoBehaviour
                 Instantiate(BallPrefab, new Vector2(Random.Range(0.03f, 0.055f), 4), Quaternion.identity, EnvironmentRef);
                 nextClick = Time.time + clickRate;
             }
+        });
+
+        AddBet = new UnityAction<int>((value) =>
+        {
+            BetCount += value;
         });
 
         Ball.OnCollided += (_gameObject, ball) =>
