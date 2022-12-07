@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         {
             if (Time.time > nextClick)
             {
-                Instantiate(BallPrefab, Vector2.up * 4, Quaternion.identity, EnvironmentRef);
+                Instantiate(BallPrefab, new Vector2(0.045f, 4), Quaternion.identity, EnvironmentRef);
                 nextClick = Time.time + clickRate;
             }
         });
