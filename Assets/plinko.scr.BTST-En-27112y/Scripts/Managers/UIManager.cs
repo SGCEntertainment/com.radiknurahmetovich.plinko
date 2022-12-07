@@ -24,6 +24,10 @@ public class UIManager : MonoBehaviour
         _1xBtn = GameObject.Find("1x").GetComponent<Button>();
         _2xBtn = GameObject.Find("2x").GetComponent<Button>();
 
+        lowRiskBtn = GameObject.Find("1x").GetComponent<Button>();
+        mediumRiskBtn = GameObject.Find("2x").GetComponent<Button>();
+        hightRiskBtn = GameObject.Find("2x").GetComponent<Button>();
+
         betCountText = GameObject.Find("2x").GetComponent<Text>();
     }
 
