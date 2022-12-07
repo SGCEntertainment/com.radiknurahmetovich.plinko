@@ -1,6 +1,30 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get => FindObjectOfType<GameManager>(); }
+    private float nextClick;
+    private const float clickRate = 0.5f;
+
+    private GameObject BallPrefab { get; set; }
+    private Transform EnvironmentRef { get; set; }
+
+    public static UnityAction SendBallAction { get; set; }
+
+    private void Awake()
+    {
+        BallPrefab = Resources.Load<GameObject>("ball");
+        EnvironmentRef = GameObject.Find("Environment").transform;
+
+        Instantiate(Resources.Load<GameObject>("game root"), EnvironmentRef);
+
+        SendBallAction = new UnityAction(() =>
+        {
+            if (Time.time > nextClick)
+            {
+                Instantiate(BallPrefab, Vector2.up * 4, Quaternion.identity, EnvironmentRef);
+                nextClick = Time.time + clickRate;
+            }
+        });
+    }
 }
