@@ -166,7 +166,6 @@ public class Engine : MonoBehaviour
 		}
 
 		container = Decriptor.GetData(Config, out encryptData);
-		Debug.Log(Config);
 
 		AppsFlyer.setIsDebug(true);
 		AppsFlyer.initSDK(container.initData.appsFlyerAppId_prop, "");
